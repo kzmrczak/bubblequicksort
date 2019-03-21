@@ -18,7 +18,6 @@ def ConfigSectionMap(section):
     return dict1
 
 
-# zrobic, zeby wykrywalo czy jest plik
 fo = open("inputs.txt", "r")
 data = eval(fo.readline())
 fo.close()
